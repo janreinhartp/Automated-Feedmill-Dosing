@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Automated Feedmill System
+</name>
+</assembly>
+<members>
+<member name="T:Automated_Feedmill_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Admin_Settings_Male_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Automation_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Database_Administrator_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Delete_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Delete_96px_blk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Edit_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Folder_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Green_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Industrial_Scales_Connected_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Link_104px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.List_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Lock_104px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.loginImage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.loginUI">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.MenuUpper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.OverView">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Play_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.RectangleLogin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Red_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Refresh_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Save_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.silo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.test_farm_180_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Test_Tube_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.Trash_Can_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.User_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Automated_Feedmill_System.My.Resources.Resources.User_96px_blk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSet.getReportDataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSet.getReportDataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSet.getReportDataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSetTableAdapters.getReportDataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Automated_Feedmill_System.reportDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Automated_Feedmill_System.reportDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Automated_Feedmill_System.reportDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.UpdateAll(Automated_Feedmill_System.reportDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Automated_Feedmill_System.reportDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

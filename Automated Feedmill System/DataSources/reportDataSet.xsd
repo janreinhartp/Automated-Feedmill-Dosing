@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="reportDataSet" targetNamespace="http://tempuri.org/reportDataSet.xsd" xmlns:mstns="http://tempuri.org/reportDataSet.xsd" xmlns="http://tempuri.org/reportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="feedmillcontrolsystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="feedmillcontrolsystemConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Automated_Feedmill_System.My.MySettings.GlobalReference.Default.feedmillcontrolsystemConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="getReportDataTableAdapter" GeneratorDataComponentClassName="getReportDataTableAdapter" Name="getReportData" UserDataComponentName="getReportDataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="feedmillcontrolsystemConnectionString (MySettings)" DbObjectName="`feedmillcontrolsystem`.`getReportData`" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>`feedmillcontrolsystem`.`getReportData`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BATCHING_ID" DataSetColumn="BATCHING_ID" />
+              <Mapping SourceColumn="DATE_TIME" DataSetColumn="DATE_TIME" />
+              <Mapping SourceColumn="F_NAME" DataSetColumn="F_NAME" />
+              <Mapping SourceColumn="M_NAME" DataSetColumn="M_NAME" />
+              <Mapping SourceColumn="L_NAME" DataSetColumn="L_NAME" />
+              <Mapping SourceColumn="POSITION" DataSetColumn="POSITION" />
+              <Mapping SourceColumn="FORMULA_NAME" DataSetColumn="FORMULA_NAME" />
+              <Mapping SourceColumn="SILO1" DataSetColumn="SILO1" />
+              <Mapping SourceColumn="SILO1_WEIGHT" DataSetColumn="SILO1_WEIGHT" />
+              <Mapping SourceColumn="SILO2" DataSetColumn="SILO2" />
+              <Mapping SourceColumn="SILO2_WEIGHT" DataSetColumn="SILO2_WEIGHT" />
+              <Mapping SourceColumn="SILO3" DataSetColumn="SILO3" />
+              <Mapping SourceColumn="SILO3_WEIGHT" DataSetColumn="SILO3_WEIGHT" />
+              <Mapping SourceColumn="SILO4" DataSetColumn="SILO4" />
+              <Mapping SourceColumn="SILO4_WEIGHT" DataSetColumn="SILO4_WEIGHT" />
+              <Mapping SourceColumn="SILO5" DataSetColumn="SILO5" />
+              <Mapping SourceColumn="SILO5_WEIGHT" DataSetColumn="SILO5_WEIGHT" />
+              <Mapping SourceColumn="SILO6" DataSetColumn="SILO6" />
+              <Mapping SourceColumn="SILO6_WEIGHT" DataSetColumn="SILO6_WEIGHT" />
+              <Mapping SourceColumn="SILO7" DataSetColumn="SILO7" />
+              <Mapping SourceColumn="SILO7_WEIGHT" DataSetColumn="SILO7_WEIGHT" />
+              <Mapping SourceColumn="SILO8" DataSetColumn="SILO8" />
+              <Mapping SourceColumn="SILO8_WEIGHT" DataSetColumn="SILO8_WEIGHT" />
+              <Mapping SourceColumn="SILO9" DataSetColumn="SILO9" />
+              <Mapping SourceColumn="SILO9_WEIGHT" DataSetColumn="SILO9_WEIGHT" />
+              <Mapping SourceColumn="TOTAL_WEIGHT" DataSetColumn="TOTAL_WEIGHT" />
+              <Mapping SourceColumn="MOLASSES" DataSetColumn="MOLASSES" />
+              <Mapping SourceColumn="COCOOIL" DataSetColumn="COCOOIL" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="reportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="reportDataSet" msprop:Generator_UserDSName="reportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="getReportData" msprop:Generator_TableClassName="getReportDataDataTable" msprop:Generator_TableVarName="tablegetReportData" msprop:Generator_RowChangedName="getReportDataRowChanged" msprop:Generator_TablePropName="getReportData" msprop:Generator_RowDeletingName="getReportDataRowDeleting" msprop:Generator_RowChangingName="getReportDataRowChanging" msprop:Generator_RowEvHandlerName="getReportDataRowChangeEventHandler" msprop:Generator_RowDeletedName="getReportDataRowDeleted" msprop:Generator_RowClassName="getReportDataRow" msprop:Generator_UserTableName="getReportData" msprop:Generator_RowEvArgName="getReportDataRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BATCHING_ID" msprop:Generator_ColumnVarNameInTable="columnBATCHING_ID" msprop:Generator_ColumnPropNameInRow="BATCHING_ID" msprop:Generator_ColumnPropNameInTable="BATCHING_IDColumn" msprop:Generator_UserColumnName="BATCHING_ID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE_TIME" msprop:Generator_ColumnVarNameInTable="columnDATE_TIME" msprop:Generator_ColumnPropNameInRow="DATE_TIME" msprop:Generator_ColumnPropNameInTable="DATE_TIMEColumn" msprop:Generator_UserColumnName="DATE_TIME" type="xs:dateTime" />
+              <xs:element name="F_NAME" msprop:Generator_ColumnVarNameInTable="columnF_NAME" msprop:Generator_ColumnPropNameInRow="F_NAME" msprop:Generator_ColumnPropNameInTable="F_NAMEColumn" msprop:Generator_UserColumnName="F_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_NAME" msprop:Generator_ColumnVarNameInTable="columnM_NAME" msprop:Generator_ColumnPropNameInRow="M_NAME" msprop:Generator_ColumnPropNameInTable="M_NAMEColumn" msprop:Generator_UserColumnName="M_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="L_NAME" msprop:Generator_ColumnVarNameInTable="columnL_NAME" msprop:Generator_ColumnPropNameInRow="L_NAME" msprop:Generator_ColumnPropNameInTable="L_NAMEColumn" msprop:Generator_UserColumnName="L_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POSITION" msprop:Generator_ColumnVarNameInTable="columnPOSITION" msprop:Generator_ColumnPropNameInRow="POSITION" msprop:Generator_ColumnPropNameInTable="POSITIONColumn" msprop:Generator_UserColumnName="POSITION">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FORMULA_NAME" msprop:Generator_ColumnVarNameInTable="columnFORMULA_NAME" msprop:Generator_ColumnPropNameInRow="FORMULA_NAME" msprop:Generator_ColumnPropNameInTable="FORMULA_NAMEColumn" msprop:Generator_UserColumnName="FORMULA_NAME">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO1" msprop:Generator_ColumnVarNameInTable="columnSILO1" msprop:Generator_ColumnPropNameInRow="SILO1" msprop:Generator_ColumnPropNameInTable="SILO1Column" msprop:Generator_UserColumnName="SILO1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO1_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO1_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO1_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO1_WEIGHTColumn" msprop:Generator_UserColumnName="SILO1_WEIGHT" type="xs:int" />
+              <xs:element name="SILO2" msprop:Generator_ColumnVarNameInTable="columnSILO2" msprop:Generator_ColumnPropNameInRow="SILO2" msprop:Generator_ColumnPropNameInTable="SILO2Column" msprop:Generator_UserColumnName="SILO2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO2_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO2_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO2_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO2_WEIGHTColumn" msprop:Generator_UserColumnName="SILO2_WEIGHT" type="xs:int" />
+              <xs:element name="SILO3" msprop:Generator_ColumnVarNameInTable="columnSILO3" msprop:Generator_ColumnPropNameInRow="SILO3" msprop:Generator_ColumnPropNameInTable="SILO3Column" msprop:Generator_UserColumnName="SILO3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO3_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO3_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO3_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO3_WEIGHTColumn" msprop:Generator_UserColumnName="SILO3_WEIGHT" type="xs:int" />
+              <xs:element name="SILO4" msprop:Generator_ColumnVarNameInTable="columnSILO4" msprop:Generator_ColumnPropNameInRow="SILO4" msprop:Generator_ColumnPropNameInTable="SILO4Column" msprop:Generator_UserColumnName="SILO4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO4_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO4_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO4_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO4_WEIGHTColumn" msprop:Generator_UserColumnName="SILO4_WEIGHT" type="xs:int" />
+              <xs:element name="SILO5" msprop:Generator_ColumnVarNameInTable="columnSILO5" msprop:Generator_ColumnPropNameInRow="SILO5" msprop:Generator_ColumnPropNameInTable="SILO5Column" msprop:Generator_UserColumnName="SILO5">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO5_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO5_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO5_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO5_WEIGHTColumn" msprop:Generator_UserColumnName="SILO5_WEIGHT" type="xs:int" />
+              <xs:element name="SILO6" msprop:Generator_ColumnVarNameInTable="columnSILO6" msprop:Generator_ColumnPropNameInRow="SILO6" msprop:Generator_ColumnPropNameInTable="SILO6Column" msprop:Generator_UserColumnName="SILO6">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO6_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO6_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO6_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO6_WEIGHTColumn" msprop:Generator_UserColumnName="SILO6_WEIGHT" type="xs:int" />
+              <xs:element name="SILO7" msprop:Generator_ColumnVarNameInTable="columnSILO7" msprop:Generator_ColumnPropNameInRow="SILO7" msprop:Generator_ColumnPropNameInTable="SILO7Column" msprop:Generator_UserColumnName="SILO7">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO7_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO7_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO7_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO7_WEIGHTColumn" msprop:Generator_UserColumnName="SILO7_WEIGHT" type="xs:int" />
+              <xs:element name="SILO8" msprop:Generator_ColumnVarNameInTable="columnSILO8" msprop:Generator_ColumnPropNameInRow="SILO8" msprop:Generator_ColumnPropNameInTable="SILO8Column" msprop:Generator_UserColumnName="SILO8">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO8_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO8_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO8_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO8_WEIGHTColumn" msprop:Generator_UserColumnName="SILO8_WEIGHT" type="xs:int" />
+              <xs:element name="SILO9" msprop:Generator_ColumnVarNameInTable="columnSILO9" msprop:Generator_ColumnPropNameInRow="SILO9" msprop:Generator_ColumnPropNameInTable="SILO9Column" msprop:Generator_UserColumnName="SILO9">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SILO9_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnSILO9_WEIGHT" msprop:Generator_ColumnPropNameInRow="SILO9_WEIGHT" msprop:Generator_ColumnPropNameInTable="SILO9_WEIGHTColumn" msprop:Generator_UserColumnName="SILO9_WEIGHT" type="xs:int" />
+              <xs:element name="TOTAL_WEIGHT" msprop:Generator_ColumnVarNameInTable="columnTOTAL_WEIGHT" msprop:Generator_ColumnPropNameInRow="TOTAL_WEIGHT" msprop:Generator_ColumnPropNameInTable="TOTAL_WEIGHTColumn" msprop:Generator_UserColumnName="TOTAL_WEIGHT" type="xs:int" />
+              <xs:element name="MOLASSES" msprop:Generator_ColumnVarNameInTable="columnMOLASSES" msprop:Generator_ColumnPropNameInRow="MOLASSES" msprop:Generator_ColumnPropNameInTable="MOLASSESColumn" msprop:Generator_UserColumnName="MOLASSES" type="xs:int" />
+              <xs:element name="COCOOIL" msprop:Generator_ColumnVarNameInTable="columnCOCOOIL" msprop:Generator_ColumnPropNameInRow="COCOOIL" msprop:Generator_ColumnPropNameInTable="COCOOILColumn" msprop:Generator_UserColumnName="COCOOIL" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:getReportData" />
+      <xs:field xpath="mstns:BATCHING_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
